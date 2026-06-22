@@ -16,7 +16,7 @@ export function Footer() {
   return (
     <footer className="bg-[#111111] text-[#FAF8F5]" role="contentinfo">
       {/* Top gold accent line */}
-      <div className="h-px bg-gradient-to-r from-transparent via-[#C9A96E] to-transparent" aria-hidden="true" />
+      <div className="h-px bg-linear-to-r from-transparent via-[#C9A96E] to-transparent" aria-hidden="true" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-8">
@@ -39,7 +39,7 @@ export function Footer() {
             </div>
 
             <div className="flex items-start gap-2 text-[#7A7570]">
-              <MapPin size={14} className="mt-0.5 flex-shrink-0 text-[#C9A96E]" aria-hidden="true" />
+              <MapPin size={14} className="mt-0.5 shrink-0 text-[#C9A96E]" aria-hidden="true" />
               <address style={{ fontFamily: "var(--font-body)" }} className="text-sm not-italic">
                 {BUSINESS.location}
               </address>
@@ -73,7 +73,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Follow Renie O Fashion on Instagram"
-                className="text-[#7A7570] hover:text-[#C9A96E] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#C9A96E]"
+                className="text-[#7A7570] hover:text-[#C9A96E] transition-colors focus-visible:outline focus-visible:outline-[#C9A96E]"
               >
                 <Instagram size={19} aria-hidden="true" />
               </a>
@@ -82,7 +82,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Chat with Renie O Fashion on WhatsApp"
-                className="text-[#7A7570] hover:text-[#C9A96E] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#C9A96E]"
+                className="text-[#7A7570] hover:text-[#C9A96E] transition-colors focus-visible:outline focus-visible:outline-[#C9A96E]"
               >
                 <MessageCircle size={19} aria-hidden="true" />
               </a>
@@ -157,10 +157,10 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-16 pt-8 border-t border-[#1E1E1E] flex flex-col md:flex-row justify-between items-center gap-4">
-          <p style={{ fontFamily: "var(--font-body)" }} className="text-[#3A3A36] text-xs">
+          <p style={{ fontFamily: "var(--font-body)" }} className="text-[#7A7570] text-xs">
             © {new Date().getFullYear()} {BUSINESS.name}. {BUSINESS.location}. All rights reserved.
           </p>
-          <p style={{ fontFamily: "var(--font-display)", letterSpacing: "0.15em" }} className="text-[#3A3A36] text-xs italic">
+          <p style={{ fontFamily: "var(--font-display)", letterSpacing: "0.15em" }} className="text-[#7A7570] text-xs italic">
             Crafted with precision. Worn with confidence.
           </p>
         </div>

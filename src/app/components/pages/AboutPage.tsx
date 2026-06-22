@@ -21,7 +21,7 @@ export function AboutPage() {
     {
       icon: <Users size={26} />,
       title: "Community",
-      desc: "Renie O Fashion is a creative community — clients, students, and collaborators who believe in the power of fashion to transform lives.",
+      desc: "Maple stitches is a creative community — clients, students, and collaborators who believe in the power of fashion to transform lives.",
     },
     {
       icon: <BookOpen size={26} />,
@@ -106,13 +106,13 @@ export function AboutPage() {
               className="text-muted-foreground text-sm leading-relaxed space-y-4"
             >
               <p>
-                Renie O. is Port Harcourt's foremost luxury womenswear designer — a creative force behind hundreds of bridal gowns, bespoke commissions, and ready-to-wear pieces that have dressed women across Nigeria for their most important moments.
+                Maple Stitches. is Port Harcourt's foremost luxury womenswear designer — a creative force behind hundreds of bridal gowns, bespoke commissions, and ready-to-wear pieces that have dressed women across Nigeria for their most important moments.
               </p>
               <p>
                 With deep expertise in pattern-making, garment construction, and couture finishing, every piece that leaves the atelier is a reflection of the woman who commissioned it — her silhouette, her occasion, her vision.
               </p>
               <p>
-                Beyond design, Renie O. is committed to education — running fashion classes and mentorship programs in Port Harcourt to grow the local fashion industry and equip the next generation of Nigerian designers with real skills.
+                Beyond design, Maple Stitches. is committed to education — running fashion classes and mentorship programs in Port Harcourt to grow the local fashion industry and equip the next generation of Nigerian designers with real skills.
               </p>
             </div>
 
@@ -142,7 +142,7 @@ export function AboutPage() {
 
             <div className="pt-1">
               <p style={{ fontFamily: "var(--font-display)" }} className="text-foreground text-xl">
-                Renie O.
+                Maple Stitches.
               </p>
               <p
                 style={{ fontFamily: "var(--font-body)", letterSpacing: "0.15em" }}
@@ -231,7 +231,7 @@ export function AboutPage() {
                 style={{ fontFamily: "var(--font-display)" }}
                 className="text-foreground text-3xl md:text-5xl leading-tight"
               >
-                Learn to Design & Sew at the Renie O Fashion Academy
+                Learn to Design & Sew at the Maple stitches Fashion Academy
               </h2>
               <p
                 style={{ fontFamily: "var(--font-body)" }}
@@ -243,7 +243,7 @@ export function AboutPage() {
                 style={{ fontFamily: "var(--font-body)" }}
                 className="text-muted-foreground text-sm leading-relaxed"
               >
-                Classes are kept small and intimate — you get personal attention, industry-standard techniques, and direct mentorship from Renie O. herself. Online options are available for students outside Port Harcourt.
+                Classes are kept small and intimate — you get personal attention, industry-standard techniques, and direct mentorship from Maple stitches. herself. Online options are available for students outside Port Harcourt.
               </p>
 
               <div className="space-y-2">
@@ -328,7 +328,7 @@ export function AboutPage() {
             What We Stand For
           </p>
           <h2 style={{ fontFamily: "var(--font-display)" }} className="text-foreground text-3xl md:text-5xl">
-            The Renie O Principles
+            The Amara Principles
           </h2>
         </motion.div>
 

@@ -14,7 +14,7 @@ export function formatPrice(value: number) {
   return `NGN ${value.toLocaleString("en-NG")}`;
 }
 
-// Central business configuration for Renie O Fashion.
+// Central business configuration for Amara Atelier.
 // Replace placeholder values before deploying to production.
 export const BUSINESS = {
   name: envString("VITE_BUSINESS_NAME", "Amara Atelier"),

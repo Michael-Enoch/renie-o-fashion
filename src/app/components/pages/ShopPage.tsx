@@ -272,7 +272,7 @@ export function ShopPage() {
             <button
               onClick={() => setSortOpen(!sortOpen)}
               aria-haspopup="listbox"
-              aria-expanded={sortOpen}
+              // aria-expanded={sortOpen}
               className="flex items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground uppercase tracking-widest cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#C9A96E] min-h-[36px]"
               style={{ fontFamily: "var(--font-body)" }}
             >
@@ -297,7 +297,7 @@ export function ShopPage() {
                   className="absolute right-0 top-full mt-2 bg-white border border-border shadow-lg min-w-[180px] z-50"
                 >
                   {SORT_OPTIONS.map((opt) => (
-                    <li key={opt.value} role="option" aria-selected={sortBy === opt.value}>
+                    <li key={opt.value} role="option">
                       <button
                         onClick={() => { setSortBy(opt.value); setSortOpen(false); }}
                         className={`w-full text-left px-4 py-3 text-xs cursor-pointer transition-colors min-h-[44px] ${

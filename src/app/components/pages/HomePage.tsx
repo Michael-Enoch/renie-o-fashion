@@ -44,7 +44,7 @@ const TESTIMONIALS = [
     name: "Adaeze O.",
     location: "Lagos",
     tag: "Bridals",
-    text: "My wedding gown was beyond anything I imagined. Renie O understood my vision perfectly — I was in tears when I first tried it on.",
+    text: "My wedding gown was beyond anything I imagined. Amara Atelier understood my vision perfectly — I was in tears when I first tried it on.",
     rating: 5,
   },
   {
@@ -105,7 +105,7 @@ export function HomePage() {
                 style={{ fontFamily: "var(--font-display)" }}
                 className="text-[#FAF8F5] text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-[1.05] mb-5"
               >
-                Renie O Fashion
+                Amara Atelier
               </h1>
               <p
                 style={{ fontFamily: "var(--font-body)", letterSpacing: "0.3em" }}
@@ -213,7 +213,7 @@ export function HomePage() {
             className="text-center mb-16"
           >
             <p style={{ fontFamily: "var(--font-body)", letterSpacing: "0.25em" }} className="text-[#C9A96E] text-xs uppercase mb-3">
-              The Renie O Process
+              The Amara Process
             </p>
             <h2 id="process-heading" style={{ fontFamily: "var(--font-display)" }} className="text-[#FAF8F5] text-3xl md:text-5xl">
               How Bespoke Works
@@ -400,7 +400,7 @@ export function HomePage() {
               Fashion Tutor
             </p>
             <h2 style={{ fontFamily: "var(--font-display)" }} className="text-[#FAF8F5] text-3xl md:text-4xl lg:text-5xl leading-tight mb-5">
-              Learn to Design & Sew at the Renie O Academy
+              Learn to Design & Sew at the Amara Atelier Academy
             </h2>
             <p style={{ fontFamily: "var(--font-body)" }} className="text-[#7A7570] text-sm leading-relaxed mb-8">
               From beginner sewing to advanced pattern-making and bridal construction — hands-on classes in Port Harcourt that turn passion into skill. Small classes, personal mentorship, certificate on completion.
@@ -447,7 +447,7 @@ export function HomePage() {
           className="text-center mb-14"
         >
           <h2 id="why-heading" style={{ fontFamily: "var(--font-display)" }} className="text-foreground text-3xl md:text-5xl">
-            Why Choose Renie O Fashion
+            Why Choose Amara Atelier
           </h2>
         </motion.div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">

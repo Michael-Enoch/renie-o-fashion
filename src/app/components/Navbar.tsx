@@ -93,13 +93,13 @@ export function Navbar({ onOpenSearch, onOpenCart, onOpenWishlist }: NavbarProps
             <button
               onClick={() => navigate("/")}
               className="flex flex-col items-start leading-none cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#C9A96E] focus-visible:outline-offset-2"
-              aria-label="Renie O Fashion — go to home"
+              aria-label="Maple Stitches — go to home"
             >
               <span
                 style={{ fontFamily: "var(--font-display)", letterSpacing: "0.06em" }}
                 className={`text-xl md:text-2xl uppercase transition-colors ${isHomeAtTop ? "text-[#FAF8F5]" : "text-foreground"}`}
               >
-                Renie O
+                Amara
               </span>
               <span
                 style={{ fontFamily: "var(--font-body)", letterSpacing: "0.3em" }}
@@ -183,8 +183,8 @@ export function Navbar({ onOpenSearch, onOpenCart, onOpenWishlist }: NavbarProps
                 }`}
                 onClick={() => setMenuOpen(!menuOpen)}
                 aria-label={menuOpen ? "Close menu" : "Open menu"}
-                aria-expanded={menuOpen}
-                aria-controls="mobile-nav"
+                // aria-expanded={menuOpen}
+                // aria-controls="mobile-nav"
               >
                 {menuOpen ? <X size={20} aria-hidden="true" /> : <Menu size={20} aria-hidden="true" />}
               </button>
